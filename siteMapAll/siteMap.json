@@ -1,6 +1,6 @@
 {
-  "TimeID": 1653122353712,
-  "sha": "98fb786993f122d2a80d24e8496cde0cbf571a6a",
+  "TimeID": 1653129949187,
+  "sha": "796ab1e2d5eef19e8993edcee4b370258a8ff97f",
   "siteMap": {
     "plugins": [],
     "pluginsDDDD": [],
@@ -232,8 +232,8 @@
           "title": "skeleton",
           "name": "skeleton",
           "en-title": "skeleton",
-          "path": "docs/tinymce-plugin-docs/resources/guide/skill/skeleton_t_omyn0i1653101661167_p_.md",
-          "upTime": 1653101664779
+          "path": "docs/tinymce-plugin-docs/resources/guide/skill/skeleton_t_d1oxy71653129948788_p_.md",
+          "upTime": 1653129949186
         },
         "guide/skill/skill-info": {
           "contributors-list": [
@@ -254,10 +254,10 @@
         },
         "guide/skill": {
           "type": "dir",
-          "title": "使用技巧",
+          "title": "skill",
           "name": "skill",
           "en-title": "skill",
-          "upTime": 1653101664778,
+          "upTime": 1653129949186,
           "path": "docs/tinymce-plugin-docs/resources/guide/skill.md"
         },
         "guide/commonproblem/images": {
@@ -320,6 +320,15 @@
           "en-title": "customize",
           "upTime": 1653101664768,
           "path": "docs/tinymce-plugin-docs/resources/guide/customize.md"
+        },
+        "./build/site/repos/tinymce-plugin-docs/guide/skill/skeleton": {
+          "contributors-list": [
+            {
+              "name": "Five-great",
+              "logo": "https://avatars.githubusercontent.com/u/43601963?v=4",
+              "repo": "https://github.com/Five-great"
+            }
+          ]
         }
       },
       "tinymce-plugin": {
@@ -549,20 +558,6 @@
       {
         "type": "docs",
         "repo": "tinymce-plugin-docs",
-        "path": "guide/skill",
-        "children": [
-          {
-            "type": "docs",
-            "repo": "tinymce-plugin-docs",
-            "path": "guide/skill/skeleton",
-            "sort": 0
-          }
-        ],
-        "sort": "7"
-      },
-      {
-        "type": "docs",
-        "repo": "tinymce-plugin-docs",
         "path": "guide/customize",
         "children": [
           {
@@ -579,6 +574,20 @@
           }
         ],
         "sort": "1"
+      },
+      {
+        "type": "docs",
+        "repo": "tinymce-plugin-docs",
+        "path": "guide/skill",
+        "children": [
+          {
+            "type": "docs",
+            "repo": "tinymce-plugin-docs",
+            "path": "guide/skill/skeleton",
+            "sort": 0
+          }
+        ],
+        "sort": 0
       },
       {
         "type": "docs",
@@ -745,30 +754,6 @@
       ]
     },
     {
-      "name": "skill",
-      "path": "/skill",
-      "redirect": {
-        "name": "skeleton_t_omyn0i1653101661167_p_"
-      },
-      "component": {
-        "template": "<div class=\"skill\" ><router-view></router-view></div>"
-      },
-      "meta": {
-        "title": "使用技巧"
-      },
-      "children": [
-        {
-          "name": "skeleton_t_omyn0i1653101661167_p_",
-          "path": "skeleton.html",
-          "component": "../build/site/docs/tinymce-plugin-docs/resources/guide/skill/skeleton_t_omyn0i1653101661167_p_",
-          "meta": {
-            "title": "skeleton"
-          },
-          "dirRepo": "tinymce-plugin-docs"
-        }
-      ]
-    },
-    {
       "name": "customize",
       "path": "/customize",
       "redirect": {
@@ -796,6 +781,30 @@
           "component": "../build/site/docs/tinymce-plugin-docs/resources/guide/customize/table_t_l1je7a1653101661167_p_",
           "meta": {
             "title": "table 表格插件"
+          },
+          "dirRepo": "tinymce-plugin-docs"
+        }
+      ]
+    },
+    {
+      "name": "skill",
+      "path": "/skill",
+      "redirect": {
+        "name": "skeleton_t_d1oxy71653129948788_p_"
+      },
+      "component": {
+        "template": "<div class=\"skill\" ><router-view></router-view></div>"
+      },
+      "meta": {
+        "title": "skill"
+      },
+      "children": [
+        {
+          "name": "skeleton_t_d1oxy71653129948788_p_",
+          "path": "skeleton.html",
+          "component": "../build/site/docs/tinymce-plugin-docs/resources/guide/skill/skeleton_t_d1oxy71653129948788_p_",
+          "meta": {
+            "title": "skeleton"
           },
           "dirRepo": "tinymce-plugin-docs"
         }
@@ -1006,7 +1015,7 @@
       }
     ],
     "addList": [
-      "skeleton_t_omyn0i1653101661167_p_"
+      "skeleton_t_d1oxy71653129948788_p_"
     ],
     "removeList": [
       "skeleton_t_omyn0i1653101661167_p_"
